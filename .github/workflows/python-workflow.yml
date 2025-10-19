@@ -12,6 +12,8 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: 3.11
+    - name: list all
+      run: ls -RhA .
 
     - name: Install dependencies
       run: |
